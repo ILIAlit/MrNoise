@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тренировка</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="main">
+            <div id="result">
+                <h3>Результат: <div id="reslt"></div>% ответов верны</h3>
+            </div>
+
+            <div class="start">
+                <button id="btnstart" onclick="mainTesteasy();">Начать</button>
+            </div>
+            
+            <div id="levels">
+                <button id="btnrepet" onclick="repeatnote();">Повторить</button>
+                <h3 id="statansw"><div id="levelnum"></div>/10</h3>
+            </div>
+            
+             <div id="listennote" class="listennote">
+                <a><button id="btn0" onclick="check(0)"><div id="notes0"></div></button></a>
+                <a><button id="btn1" onclick="check(1)"><div id="notes1"></div></button></a>
+                <a><button id="btn2" onclick="check(2)"><div id="notes2"></div></button></a>
+                <a><button id="btn3" onclick="check(3)"><div id="notes3"></div></button></a>
+                <a><button id="btn4" onclick="check(4)"><div id="notes4"></div></button></a>
+                <a><button id="btn5" onclick="check(5)"><div id="notes5"></div></button></a>
+                <a><button id="btn6" onclick="check(6)"><div id="notes6"></div></button></a>
+            </div>         
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="icons">
+            <a href="https://www.instagram.com/"><img class="icon" src="Res/Img/inst.png"></a>
+            <a href="https://www.youtube.com/channel/UCpZfjvZWxiE84hj25Mwcr9w"><img class="icon" src="Res/Img/youtybe.png"></a>
+            <a href="https://vk.com/ilia1999lit"><img class="icon" src="Res/Img/vk.png"></a>
+        </div>
+        
+    </footer>
+    
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+</html>

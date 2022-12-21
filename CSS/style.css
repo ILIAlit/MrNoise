@@ -1,0 +1,329 @@
+{% load static %}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+html
+{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background: black;
+    background-image: url('../Res/img/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Heavy';
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.mainname{
+    margin-top: 40px;
+    text-align: center;   
+}
+
+button {
+
+    background: black;
+    text-align: center;
+    border: 3px solid #ffffff;
+    border-radius: 26px;
+    color: #ffffff;
+
+}
+
+.btnstart{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 80px;
+    border: 3px solid #ffffff;
+    border-radius: 26px;
+    color: black;
+
+
+}
+
+.btnlisten {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 80px;
+    border: 3px solid #ffffff;
+    border-radius: 26px;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    display: inline;
+    font-family: 'Microsoft Sans Serif';
+}
+
+h4{
+    font-family: 'Franklin Gothic';
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.listennotes{
+   margin-top: 100px;
+   text-align: center;
+}
+
+.listennotes button{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.listennotes2{
+   margin-top: 2%;
+   text-align: center;
+}
+
+.listennotes2 button{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.levelbtn
+{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.levelbtn button
+{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.page
+{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main
+{
+    flex: 1 1 auto;
+}
+
+#levels
+{
+    text-align: center;
+}
+
+#levelnum
+{
+    display: inline;
+}
+
+#reslt
+{
+    display: inline;
+}
+
+#btnstart
+{
+    font-size: 30px;
+    width: 350px;
+    height: 100px;
+    border-radius: 70px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: btnanim;
+    margin-top: 110px;
+}
+
+.start
+{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#btnrepet
+{
+    width: 220px;
+    height: 60px;
+    margin-right: 60px;
+}
+
+#statansw
+{
+    font-size: 40px;
+    position: relative;
+    top: +11px;
+    font-family: 'Franklin Gothic Heavy';
+}
+
+.listennote
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.listennote button{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button:hover
+{
+    transform: scale(1.1,1.1);
+    transition-duration: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding-top: 10px;
+    background: black;
+    margin-top: 100px;
+    border-top: 1px solid #ffffff;
+    height: 50px;
+    width: 100%;
+}
+
+.icons
+{
+    text-align: center;
+}
+
+.icon
+{
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+@keyframes shadowfalse
+{
+    from
+    {
+        box-shadow: 0 0 0 white;
+    }
+    to
+    {
+        box-shadow: 10px 10px 100px red;
+    }
+}
+
+@keyframes shadowtrue
+{
+    from
+    {
+        box-shadow: 0 0 0 white;
+    }
+    to
+    {
+        box-shadow: 10px 10px 100px green;
+    }
+}
+
+@keyframes btnanim 
+{
+    from
+    {
+        transform: scale(1,1);
+    }
+    to
+    {
+        transform: scale(1.1,1.1);
+    }
+}
+
